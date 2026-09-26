@@ -3,7 +3,7 @@ function normalizeText(value) {
 }
 
 function isBlank(value) {
-  return value === "" || value == null;
+  return value === "" || value == null || value === undefined;
 }
 
 function cleanName(value) {
